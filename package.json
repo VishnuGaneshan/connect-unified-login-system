@@ -1,0 +1,26 @@
+{
+  "name": "connect-unified-login-system",
+  "version": "1.0.0",
+  "description": "A NPM package for connecting any website with Unified Login System developed by Vishnu G for User Authentication purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishnuGaneshan/connect-unified-login-system.git"
+  },
+  "keywords": [
+    "unified-login-system",
+    "vishnu",
+    "npm",
+    "user",
+    "authentication"
+  ],
+  "author": "Vishnu G",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/VishnuGaneshan/connect-unified-login-system/issues"
+  },
+  "homepage": "https://github.com/VishnuGaneshan/connect-unified-login-system#readme"
+}
