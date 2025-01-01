@@ -1,6 +1,6 @@
 {
   "name": "connect-unified-login-system",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A NPM package for connecting any website with Unified Login System developed by Vishnu G for User Authentication purposes",
   "main": "index.js",
   "scripts": {
