@@ -3,7 +3,7 @@ export async function connectToUnifiedLoginSystem({ publicKey }) {
         isError: true,
         msg: 'publicKey required!'
     }
-    const unifiedLoginSystemUrl = 'http://localhost:3000'; // Replace with the actual URL
+    const unifiedLoginSystemUrl = 'https://unified-login-system.gvishnu.in'; // Replace with the actual URL
 
     const url = unifiedLoginSystemUrl + "/ThirdPartyConnect?publicKey=" + publicKey;
     const popupWidth = 500;
