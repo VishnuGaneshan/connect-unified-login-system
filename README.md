@@ -1,5 +1,3 @@
-# connect-unified-login-system
-A NPM package for connecting any website with Unified Login System developed by Vishnu G for User Authentication purposes
 # Connect Unified Login System
 
 `connect-unified-login-system` is an NPM package that helps websites seamlessly integrate with the [Unified Login System](https://unified-login-system.gvishnu.in) for user authentication purposes. By using this package, developers can enable secure, efficient, and user-friendly authentication for their applications.
