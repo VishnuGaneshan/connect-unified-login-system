@@ -47,10 +47,11 @@ handleUnifiedLoginSystem();
 
 ## API
 
-### `connectToUnifiedLoginSystem({ publicKey })`
+### `connectToUnifiedLoginSystem({ publicKey, isProd })`
 
 #### Parameters
 - `publicKey` (string, required): Your unique public key provided by the Unified Login System. It is used to authenticate your application.
+- `isProd` (string, optional): If you want to return response to your Production URL provide `true`.
 
 #### Returns
 A Promise that resolves to an object containing user data or an error message.

@@ -1,11 +1,11 @@
-export async function connectToUnifiedLoginSystem({ publicKey }) {
+export async function connectToUnifiedLoginSystem({ publicKey, isProd }) {
     if(!publicKey?.length) return {
         isError: true,
         msg: 'publicKey required!'
     }
     const unifiedLoginSystemUrl = 'https://unified-login-system.gvishnu.in'; // Replace with the actual URL
 
-    const url = unifiedLoginSystemUrl + "/ThirdPartyConnect?publicKey=" + publicKey;
+    const url = unifiedLoginSystemUrl + "/ThirdPartyConnect?publicKey=" + publicKey + '&isProd=' + (isProd ? true : false);
     const popupWidth = 500;
     const popupHeight = 630;
 
